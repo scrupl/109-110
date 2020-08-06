@@ -10,7 +10,7 @@ To bring genuinely good technology companies focusing on impact in the developin
 
 ## Values
 
-* Profit as a means to an end, not and end in itself
+* Profit as a means to an end, not an end in itself
 * Ownership according to entrepreneurship; influence according to contribution
 * Altruistic reciprocity 
 * Radical transparency
