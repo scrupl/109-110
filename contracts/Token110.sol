@@ -10,7 +10,7 @@ contract Token110 is AccessControl, ERC721 {
         _grantRole(DIRECTOR, founder1);
         _grantRole(DIRECTOR, founder2);
         _setRoleAdmin(MEMBER, DIRECTOR);
-    };
+    }
 
     /**
     * For now, 109-110 doesn't need anything but DIRECTOR roles, but for testing
