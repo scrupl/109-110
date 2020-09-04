@@ -1,12 +1,28 @@
 {
-  "dependencies": {
-    "ganache-cli": "^6.7.0",
-    "openzeppelin-solidity": "^2.3.0",
-    "truffle": "^5.0.37"
+  "name": "109-110",
+  "version": "1.0.0",
+  "description": "Company repository for 109-110 Company Limited",
+  "main": "buidler.config.js",
+  "directories": {
+    "test": "test"
   },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.2",
+    "ethers": "^5.0.9"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start:chain": "bash ./scripts/start_blockchain.sh",
-    "migrate:local": "yarn run truffle migrate --network local --compile-all --reset",
-    "migrate:goerli": "yarn run truffle migrate --network goerli --compile-all --reset"
-  }
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrupl/109-110.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scrupl/109-110/issues"
+  },
+  "homepage": "https://github.com/scrupl/109-110#readme"
 }
