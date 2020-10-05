@@ -22,6 +22,7 @@ contract Token110 is AccessControl, ERC721 {
     */
 
     bytes32 public constant DIRECTOR = keccak256("DIRECTOR");
+    bytes32 public constant ALTDIR = keccak256("ALTDIR");
     bytes32 public constant MEMBER = keccak256("MEMBER");
 
     /*
